@@ -1,22 +1,34 @@
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "inicio.htm"
+        templateUrl : "inicio.html"
     })
     .when("/productos", {
-        templateUrl : "productos.htm"
+        templateUrl : "productos.html"
+    })
+    .when("/baja", {
+        templateUrl : "baja.html"
+    })
+    .when("/media", {
+        templateUrl : "media.html"
+    })
+    .when("/calentadores", {
+        templateUrl : "calentadores.html"
+    })
+    .when("/servicios", {
+        templateUrl : "servicios.html"
     })
     .when("/proyectos", {
-        templateUrl : "proyectos.htm"
+        templateUrl : "proyectos.html"
     })
     .when("/planes", {
-        templateUrl : "planes.htm"
+        templateUrl : "planes.html"
     })
     .when("/blog", {
-        templateUrl : "blog.htm"
+        templateUrl : "blog.html"
     })
     .when("/contacto", {
-        templateUrl : "contacto.htm"
+        templateUrl : "contacto.html"
     })
     ;
 });
