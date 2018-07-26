@@ -24,6 +24,7 @@ const routes: Routes = [
   {path:'planes', component:PlanesComponent},
   {path:'blog', component:BlogComponent},
   {path:'contacto', component:ContactoComponent},
+  {path: '', redirectTo: '/inicio', pathMatch:'full'}
 ];
 
 @NgModule({
