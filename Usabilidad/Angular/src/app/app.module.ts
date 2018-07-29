@@ -6,12 +6,11 @@ import { AppComponent } from './app.component';
 import { AngularComponent } from './angular/angular.component';
 import { FeaturesComponent } from './features/features.component';
 import { DocsComponent } from './docs/docs.component';
-import { ResoursesComponent } from './resourses/resourses.component';
+import { ResourcesComponent } from './resources/resources.component';
 import { EventsComponent } from './events/events.component';
 import { BlogComponent } from './blog/blog.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
-import { ResourcesComponent } from './resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +18,11 @@ import { ResourcesComponent } from './resources/resources.component';
     AngularComponent,
     FeaturesComponent,
     DocsComponent,
-    ResoursesComponent,
+    ResourcesComponent,
     EventsComponent,
     BlogComponent,
     NavBarComponent,
     FooterComponent,
-    ResourcesComponent
   ],
   imports: [
     BrowserModule,
