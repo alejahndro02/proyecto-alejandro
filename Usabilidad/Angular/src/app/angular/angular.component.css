@@ -1,8 +1,24 @@
-section #principal div{
+#principal div{
     background-color: #0B77FF;
-    text-decoration-color: #FFF;
+    color: #FFF;
+
+}
+#principal .img{
+    display:flex;
+    justify-content: center;
+       
 }
 img{
+    
     height: 200px;
 
+}
+.dev{
+    display:flex;
+    justify-content: center;
+       
+}
+.start{
+    display:flex;
+    justify-content: center;
 }
