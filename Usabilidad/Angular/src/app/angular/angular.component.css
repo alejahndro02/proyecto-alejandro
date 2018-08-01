@@ -30,49 +30,7 @@
     width: 150;
 
 }
- /* #principañ{
-     position: absolute;
- }
- #principal .img{
-     display:flex;
-     justify-content: center;
-     width: 300px;
-     max-width: 300px;
-        
- } */
-/* header {
-    position: relative;
-    height: 300px;
-    background-image: linear-gradient(#0B77FF, rgba(11, 121, 255, 0.808));
-  }
-  h1 {
-  }
-  
-  
-  svg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10vw; */
-    /* set height to pixels if you want angle to change with screen width 
-  }*/
-  
-/* #principal div{
-    background-color: #0B77FF;
-    color: #FFF;
-
+.card-title{
+    color: #1976d2;
 }
-img{
-    
-    height: 200px;
-
-}
-.dev{
-    display:flex;
-    justify-content: center;
-       
-}
-.start{
-    display:flex;
-    justify-content: center;
-} */
+ 

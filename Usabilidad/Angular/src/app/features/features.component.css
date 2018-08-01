@@ -1,3 +1,15 @@
 header{
-    background-color:#0B77FF ;
+    background-color: #378fe7;
+    /* background:linear-gradient(145deg,#0d47a1,#42a5f5); */
+}
+h1{
+    color: #FFFF;
+    justify-content: center;
+}
+h5{
+   color: #378fe7; 
+}
+button{
+   display: flex;
+   justify-content: center; 
 }
