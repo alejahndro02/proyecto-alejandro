@@ -2,7 +2,6 @@ nav{
     background-color:#147114 ;
     background: repeating-linear-gradient(#2e8e2e,#00c20d);
     /* background: repeating-radial-gradient(15deg,#2e8e2e,#00c20d); */
-<<<<<<< HEAD
 }
 
 /* ul{
@@ -15,6 +14,7 @@ nav{
     /* margin:0 0 15px; */
     /* padding: 0px; */
     /* overflow:hidden; */
+    background-color: azure;
     
 }
 li{
@@ -40,6 +40,3 @@ li a:hovernot(.active){
     color: #c9f459;
 
 } */
-=======
-} 
->>>>>>> f4a2093cc3b8291afdcc3b18daa66f4f8abf211e
