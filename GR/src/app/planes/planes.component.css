@@ -1,20 +1,75 @@
-.grid .pestana{
+main{
+    background-image: url(../../assets/renewable-1989416_1920.jpg);
+    background-position: center;
+}
+
+.grid-container{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0 25px 0;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+.option{
+    display: flex;
+    justify-content: space-around;
+}
+a:link{
+    color:#00cd50;
+    /* background: #00cd50; */
+    font-style:bold;
+    font-size: 20px;
+}
+.pestana{
+    padding-bottom: 30px;
+} 
+.contenido{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
-    /* grid-row-gap: 10px;
-    grid-column-gap: 10px; */
-    background-color: brown;
-}
-.pestaña{
-    background-color: aqua;
-}
-.contenido{
-    background-color: blueviolet;
 }
 .izq{
-    background-color: chartreuse
+    background-color: rgba(0, 0, 0,0.5);
+    /* opacity:0.5; */
+    padding: 25px;
+    color: #fff;
 }
-.der{
-    background-color: yellow;
+h3{
+    display: flex;
+    justify-content: center;
+}
+.izq span{
+    display: flex;
+    justify-content: center;
+    color:#71dc12;
+}
+.izq p{
+    text-align: justify;
+    padding-right: 30px;
+}
+h5{
+    text-align: center;
+    color: brown;
+}
+.der .planes{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+button{
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5rem;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.img{
+    height: 300px;
+    border-radius: 40px;
 }
