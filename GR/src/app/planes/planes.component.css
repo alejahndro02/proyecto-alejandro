@@ -1,6 +1,7 @@
 main{
     background-image: url(../../assets/renewable-1989416_1920.jpg);
     background-position: center;
+    padding-top: 150px;
 }
 
 .grid-container{
@@ -30,9 +31,10 @@ a:link{
 .contenido{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    
 }
 .izq{
-    background-color: rgba(0, 0, 0,0.5);
+    background-color: rgba(0, 0, 0,0.4);
     /* opacity:0.5; */
     padding: 25px;
     color: #fff;

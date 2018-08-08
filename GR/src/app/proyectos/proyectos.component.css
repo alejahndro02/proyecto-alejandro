@@ -1,0 +1,84 @@
+main{
+    padding-top: 150px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.b{
+    background-color: aqua;
+}
+.c{
+    background-color: yellow;
+
+}
+.d{
+    background-color: green;
+
+}
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
