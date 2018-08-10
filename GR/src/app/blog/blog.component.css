@@ -1,175 +1,8 @@
-/* main{
-    background-image: url(../../assets/solar-2344550_1280.jpg)
-}
-h1{
-    display: flex;
-    justify-content: center;
-    padding:150px 0 0;
-    background-color: bisque;
-}
-.container{
-    width: 90%;
-    max-width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.content-all{
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    background-color: aqua;
-}
-.content-img{
-    width: 500px;
-    height: 300px;
-    margin: auto;
-    margin-top: 100px;
-    position: relative;
-    overflow: hidden;
-}
-.content-img img{
-    width: 100%;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-.content-1{
-    width:  1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: #FFF;
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
-    margin-left: -750px;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-.content-2{
-    width:  1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba(0,100,255,0.7);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
-    margin-left: -800px;
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-}
-.content-3{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba(0,100,255,0.5);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    margin-left: -800px;
-    margin-top: -500px;
-    -webkit-transition: all 900ms;
-    transition: all 900ms;
-    -webkit-box-shadow: 0px 1px 20px -5px black;
-    box-shadow: 0px 1px 20px -5px black;
-}
-
-.content-4{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba(0,100,255,0.5);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    margin-left: -850px;
-    margin-top: -500px;
-    -webkit-transition: all 700ms;
-    transition: all 700ms;
-}
-.content-img:hover .content-1{
-    width: 222%;
-    -webkit-transition: all 900ms;
-    transition: all 900ms;
-}
-
-.content-img:hover .content-2{
-    width: 222%;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-img:hover .content-3{
-    width: 222%;
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-}
-
-.content-img:hover .content-4{
-    width: 222%;
-    -webkit-transition: all 700ms;
-    transition: all 700ms;
-}
-
-.content-img:hover img{
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    opacity: 0.8;
-}
-
-.content-txt{
-    position: absolute;
-    top: 0;
-    width: 200px;
-    padding: 10px;
-    z-index: 10;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.content-txt h2{
-    font-size: 20px;
-    opacity: 0;
-    -webkit-transform: scale(0.2);
-    transform: scale(0.2);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-txt p{
-    font-size: 15px;
-    margin-top: 10px;
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-img:hover h2{
-    opacity: 1;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-.content-img:hover p{
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-} */
 main{
     background-image: url(../../assets/renewable-1989416_1920.jpg);
     /* background-image: url(../../assets/panel-2562240_1920.jpg); */
+    /* background-position: center; */
 }
 h1{
     display: flex;
@@ -178,6 +11,7 @@ h1{
 }
 .container{
     display: grid;
+    background-color: rgba(0, 0, 0,0.4);
     grid-template-columns: repeat(3, 1fr);
     /* position: relative; */
 }
@@ -196,6 +30,9 @@ div a{
     display: flex;
     /* justify-content: right; */
     padding-left: 200px;
+}
+.arriba{
+    padding-top: 5px;
 }
 .medio{
     padding-top: 10%;
