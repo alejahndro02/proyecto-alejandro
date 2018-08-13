@@ -1,27 +1,27 @@
-# CURSO PROGRAMACIÓN WEB
-## PROYECTO FINAL
-### ENERGÍAS RENOVABLES
+# GR
 
-## PROBLEMÁTICA
-Desde hace algún tiempo en nuestro país ha ido incrementando el costo de la energía eléctrica y del gas
-LP.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-## OBJETIVO
-Informar de los beneficios que tiene el uso de energías renovables y poder reducir el costo de
-consumo de los usuarios.
+## Development server
 
-## SOLUCIÓN
-Crear un portal web donde se especifique los beneficios del uso de las energías renovables (paneles y
-calentadores solares) y a través de este medio, los usuarios puedan comprobar el ahorro con la
-instalación de un sistema renovable con respecto a un sistema tradicional en el consumo eléctrico y de
-gas LP.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-En el caso del sistema fotovoltaico se solicitara el pago bimestral de de la factura de CFE y con este dato se hará la
-recomendación adecuada al usuario del sistema (paneles, microcoinversor o inversor) que se deberá de
-instalar, otro dato que se estaría mostrando al usuario es el ahorro bimestral de la factura de CFE y el retorno de inversión
-del sistema fotovoltaico.
+## Code scaffolding
 
-En el caso de del sistema de calentador solar constara del numero del número de servicios (número de
-personas) en la casa habitación para saber cual es el calentador mas idóneo para obtener el máximo
-ahorro (hasta un 75%) del consumo total de gas también se mostrara el retorno de inversión por este
-sistema.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
