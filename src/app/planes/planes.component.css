@@ -1,6 +1,32 @@
-main{
-    background-image: url(../../assets/renewable-1989416_1920.jpg);
+header {
+    width: 100%;
+    height: 690px;
+    background-image: url(../../assets/planpan.jpg);
+    background-attachment: fixed;
     background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+} 
+main{
+    /* background-image: url(../../assets/renewable-1989416_1920.jpg);
+    background-position: center; */
     padding-top: 150px;
 }
 
@@ -10,10 +36,12 @@ main{
     margin: auto;
     /* overflow: hidden; */
     /* padding: 15px 0 25px 0; */
+    background-image: url(../../assets/renewable-1989416_1920.jpg);
+    background-position: center;
 }
 h2{
     text-align: center;
-    color: blueviolet;
+    /* color: blueviolet; */
 }
 .option{
     display: flex;

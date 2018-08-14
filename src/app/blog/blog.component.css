@@ -172,10 +172,10 @@ Movie information
 	font-size: 1.4em;
 }
 
-.info header .rating {
+/* .info header .rating {
 	border: 1px solid #FFF;
 	padding: 0px 3px;
-}
+} */
 
 .info p {
 	padding: 1.2em 1.4em;
@@ -221,29 +221,51 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-  background-image: url(../../assets/1.jpg)
+  background-image: url(../../assets/imagen-1.JPG)
 }
 
 .scene:nth-child(2) .poster {
-  background-image: url(./../../assets/2.jpg);
+  background-image: url(./../../assets/imagen-2.png);
 }
 
 .scene:nth-child(3) .poster {
-  background-image: url(../../assets/3.jpg);
+  background-image: url(../../assets/imagen-3.png);
 }
 
 .scene:nth-child(1) .info header {
-	background-image: url(../../assets/1.1.jpg);
+	background-image: url(../../assets/imagen-1.JPG);
 }
 
 .scene:nth-child(2) .info header {
-	background-image: url(../../assets/2.2.jpg);
+	background-image: url(../../assets/imagen-2.png);
 }
 
 .scene:nth-child(3) .info header {
-	background-image: url(../../assets/3.3.jpg);
+	background-image: url(../../assets/imagen-3.png);
 }
-
+#med .scene:nth-child(1) .movie .poster {
+	background-image: url(../../assets/imagen-4.png)
+  }
+  
+#med .scene:nth-child(2) .poster {
+	background-image: url(./../../assets/imagen-5.jpg);
+  }
+  
+#med .scene:nth-child(3) .poster {
+	background-image: url(../../assets/imagen-6.jpg);
+  }
+  
+#med .scene:nth-child(1) .info header {
+	  background-image: url(../../assets/imagen-4.png);
+  }
+  
+#med .scene:nth-child(2) .info header {
+	  background-image: url(../../assets/imagen-5.jpg);
+  }
+  
+#med .scene:nth-child(3) .info header {
+	  background-image: url(../../assets/imagen-6.jpg);
+  }
 
 
 /*************************************
