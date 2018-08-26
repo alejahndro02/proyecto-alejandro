@@ -1,14 +1,23 @@
-<!-- <nav class="navbar navbar-expand-md">
-   <a class="navbar-brand" routerLink="/inicio"><img src="../.././assets/GR2.png" width="50" height="60" class="d-inline-block align-top" alt="">
-     Ingeniería Eléctrica</a>
- -->
-<nav>
-  <a routerLink="/inicio"><img src="../../assets/GR2.png" width="100" height="100" alt=""></a>
-  <div>
-      <a routerLink="/proyectos">Proyectos</a>
-      <a routerLink="/productos">Productos</a>
-      <a routerLink="/planes">Plan de Ahorro</a>
-      <a routerLink="/blog">Blog</a>
-      <!-- <li><a></a></li> -->
+<header>
+  <div class="menu_bar">
+    <a class="bt-menu"><span><img src="../../assets/icon/menu.svg" alt=""></span><img src="../../assets/favicon.ico" width="32" height="32" class="d-inline-block align-top" alt="">
+    Ingenieria</a>
   </div>
-</nav>
+  <nav>
+
+    <ul>
+      <li><a routerLink="inicio">Inicio</a></li>
+      <li class="submenu">
+      <a routerLink="proyectos">Proyectos</a>
+      <ul class="children">
+          <li><a routerLink="#">Proyecto 1<span class="icon-dot"></span></a></li>
+          <li><a routerLink="#">Proyecto 2<span class="icon-dot"></span></a></li>
+          <li><a routerLink="#">Proyecto 3<span class="icon-dot"></span></a></li>
+      </ul>
+      </li>
+      <li><a routerLink="/productos">Productos</a></li>
+      <li><a routerLink="/planes">Plan de Ahorro</a></li>
+      <li><a routerLink="/blog">Blog</a></li>
+    </ul>
+  </nav>
+</header>
